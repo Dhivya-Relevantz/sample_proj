@@ -6,6 +6,7 @@
         "target": "es2022",
         "sourceMap": true,
         "outDir": "./.tmp/build/",
+        "jsx":"react-jsx",
         "moduleResolution": "node",
         "declaration": true,
         "lib": [

@@ -1,0 +1,17 @@
+{
+		"version": "1.0.0.0",
+		"author": {"name":"Dhivya Kannan","email":"dhivya.kannan@relevantz.com"},
+		"resources": [
+			{
+				"resourceId": "rId0",
+				"sourceType": 5,
+				"file": "resources/testVisual22544EE367DD4C729999CAF187A81CE6.pbiviz.json"
+			}
+		],
+		"visual": {"name":"testVisual","displayName":"Test Visual","guid":"testVisual22544EE367DD4C729999CAF187A81CE6","visualClassName":"Visual","version":"1.0.0.0","description":"A custom Power BI visual built with JavaScript/TypeScript","supportUrl":"https://community.fabric.microsoft.com/t5/Power-BI-forums/ct-p/powerbi","gitHubUrl":"https://github.com/Dhivya-Relevantz/sample_proj.git"},
+		"metadata": {
+			"pbivizjson": {
+				"resourceId": "rId0"
+			}
+		}
+	}

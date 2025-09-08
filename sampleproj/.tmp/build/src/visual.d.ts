@@ -5,15 +5,22 @@ import VisualUpdateOptions = powerbi.extensibility.visual.VisualUpdateOptions;
 import IVisual = powerbi.extensibility.visual.IVisual;
 export declare class Visual implements IVisual {
     private target;
-    private updateCount;
-    private textNode;
+    private chatContainer;
+    private messagesArea;
+    private inputBox;
+    private sendButton;
+    private optionDropdown;
+    private fileInput;
+    private fileLabel;
     private formattingSettings;
     private formattingSettingsService;
+    private latestDataViews;
     constructor(options: VisualConstructorOptions);
+    private handleSend;
+    private renderBarChart;
+    private renderColumnChart;
+    private renderPieChart;
+    private renderScatterChart;
     update(options: VisualUpdateOptions): void;
-    /**
-     * Returns properties pane formatting model content hierarchies, properties and latest formatting values, Then populate properties pane.
-     * This method is called once every time we open properties pane or when the user edit any format property.
-     */
     getFormattingModel(): powerbi.visuals.FormattingModel;
 }

@@ -5,11 +5,11 @@ import VisualConstructorOptions = powerbiVisualsApi.extensibility.visual.VisualC
 import DialogConstructorOptions = powerbiVisualsApi.extensibility.visual.DialogConstructorOptions;
 var powerbiKey: any = "powerbi";
 var powerbi: any = window[powerbiKey];
-var sampleprojD50A46DA809C4B55995AD851B669B5F0: IVisualPlugin = {
-    name: 'sampleprojD50A46DA809C4B55995AD851B669B5F0',
-    displayName: 'sample_proj',
+var testVisual22544EE367DD4C729999CAF187A81CE6_DEBUG: IVisualPlugin = {
+    name: 'testVisual22544EE367DD4C729999CAF187A81CE6_DEBUG',
+    displayName: 'Test Visual',
     class: 'Visual',
-    apiVersion: '5.3.0',
+    apiVersion: '5.9.0',
     create: (options?: VisualConstructorOptions) => {
         if (Visual) {
             return new Visual(options);
@@ -27,6 +27,6 @@ var sampleprojD50A46DA809C4B55995AD851B669B5F0: IVisualPlugin = {
 if (typeof powerbi !== "undefined") {
     powerbi.visuals = powerbi.visuals || {};
     powerbi.visuals.plugins = powerbi.visuals.plugins || {};
-    powerbi.visuals.plugins["sampleprojD50A46DA809C4B55995AD851B669B5F0"] = sampleprojD50A46DA809C4B55995AD851B669B5F0;
+    powerbi.visuals.plugins["testVisual22544EE367DD4C729999CAF187A81CE6_DEBUG"] = testVisual22544EE367DD4C729999CAF187A81CE6_DEBUG;
 }
-export default sampleprojD50A46DA809C4B55995AD851B669B5F0;
+export default testVisual22544EE367DD4C729999CAF187A81CE6_DEBUG;
