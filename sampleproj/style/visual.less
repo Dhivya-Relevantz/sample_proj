@@ -4,6 +4,78 @@ p {
     em {
         background: yellow;
         padding: 5px;
-        
     }
 }
+
+// --- Add chatbot styles below ---
+
+.chatbot-container {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 16px;
+    background: #fff;
+    max-width: 700px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+.chatbot-messages {
+    flex: 1;
+    overflow-y: auto;
+    margin-bottom: 12px;
+    background: #f9f9f9;
+    padding: 8px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+.chatbot-message {
+    margin: 6px 0;
+    padding: 8px 12px;
+    border-radius: 16px;
+    max-width: 80%;
+    word-break: break-word;
+}
+.chatbot-message.user {
+    background: #e0f7fa;
+    align-self: flex-end;
+    text-align: right;
+}
+.chatbot-message.bot {
+    background: #c8e6c9;
+    align-self: flex-start;
+    text-align: left;
+}
+.chatbot-input-area {
+    display: flex;
+    gap: 8px;
+}
+.chatbot-input-area input {
+    flex: 1;
+    padding: 8px;
+    border-radius: 16px;
+    border: 1px solid #ccc;
+}
+.chatbot-dropdown {
+    padding: 8px;
+    border-radius: 16px;
+    border: 1px solid #ccc;
+}
+.chatbot-send-btn {
+    padding: 8px 16px;
+    border-radius: 16px;
+    border: none;
+    background: #26a69a;
+    color: #fff;
+    cursor: pointer;
+}
+.bar-chart { margin: 12px 0; }
+.bar-row { display: flex; align-items: center; margin-bottom: 6px; }
+.bar-label { width: 60px; }
+.bar { background: #26a69a; color: #fff; padding: 4px 8px; border-radius: 8px; margin-left: 8px; }
+
+.column-chart { margin: 12px 0; }
+.pie-chart ul { padding-left: 20px; }
+.scatter-chart table { border-collapse: collapse; }
+.scatter-chart th, .scatter-chart td { border: 1px solid #ccc; padding: 4px 8px; }

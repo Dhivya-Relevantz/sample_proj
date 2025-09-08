@@ -10,7 +10,7 @@
 
     "visualClassName": "Visual",
 
-    "version": "1.0.0.0",
+    "version": "1.0.0.1",
 
     "description": "A custom Power BI visual built with JavaScript/TypeScript",
 

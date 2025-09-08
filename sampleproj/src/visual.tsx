@@ -124,8 +124,8 @@ export class Visual implements IVisual {
         }
 
         // Call LLM API (replace with your endpoint)
-        try {
-            const response = await fetch("https://your-llm-api-endpoint", {
+        try {const response = await fetch("https://your-llm-api-endpoint", {
+            
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
